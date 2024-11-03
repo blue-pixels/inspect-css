@@ -1,0 +1,43 @@
+body {
+    background-color: #e6f3ff;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+.question {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+input {
+    padding: 5px;
+    margin: 5px 0;
+}
+
+button {
+    padding: 5px 15px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+.result {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}

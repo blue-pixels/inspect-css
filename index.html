@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevTools Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>DevTools Inspector Quiz</h1>
+    
+    <div class="question">
+        <h2>Question 1</h2>
+        <p>What is the background color of the body? (Use hex color)</p>
+        <input type="text" id="q1">
+        <button onclick="checkAnswer(1, '#e6f3ff')">Submit</button>
+        <div id="result1" class="result"></div>
+    </div>
+
+    <div class="question">
+        <h2>Question 2</h2>
+        <p>What is the font size of h1? (Include units)</p>
+        <input type="text" id="q2">
+        <button onclick="checkAnswer(2, '36px')">Submit</button>
+        <div id="result2" class="result"></div>
+    </div>
+
+    <div class="question">
+        <h2>Question 3</h2>
+        <p>What is the font weight of h2?</p>
+        <input type="text" id="q3">
+        <button onclick="checkAnswer(3, '700')">Submit</button>
+        <div id="result3" class="result"></div>
+    </div>
+
+    <div class="question">
+        <h2>Question 4</h2>
+        <p>What is the font family of p elements? (First font only)</p>
+        <input type="text" id="q4">
+        <button onclick="checkAnswer(4, 'Arial')">Submit</button>
+        <div id="result4" class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
